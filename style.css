@@ -8,19 +8,23 @@
     color: white;
     background-color: gray;
     padding: 4px;
-    font-size: 3em;
-    width: 300px;
+    font-size:4em;
+    width: 350px;
     text-align: right;
     margin-bottom: 5px;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #262626;
+    font-family: monospace;
 }
 
-.buttons div{
+.buttons div {
     display: flex;
 }
 
-.buttons div button{
+.buttons div button {
     font-size: 20px;
-    font-weight: 550;
+    font-weight: 600;
     width: 25%;
     height: 80px;
     box-sizing: border-box;
@@ -38,10 +42,22 @@
     background-color: rgb(252, 199, 102);
 }
 
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #decimal {
-    background-color: rgb(158, 244, 255);
+#divide:hover, #multiply:hover, #minus:hover, #plus:hover, #equal:hover {
+    background-color: rgb(255, 224, 167);
+}
+
+.number-button, #decimal {
+    background-color: rgb(110, 232, 248);
+}
+
+.number-button:hover, #decimal:hover {
+    background-color: rgb(169, 244, 255);
 }
 
 #clear, #sign, #percent {
     background-color: rgb(153, 243, 145);
+}
+
+#clear:hover, #sign:hover, #percent:hover {
+    background-color: rgb(195, 255, 190);
 }
