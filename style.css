@@ -4,18 +4,21 @@
     padding: 8px;
 }
 
-#display {
+#display, #display-history {
     color: white;
-    background-color: gray;
-    padding: 4px;
-    font-size:4em;
+    background-color: rgb(102, 102, 102);
+    padding-right: 4px;
+    font-size: 4em;
     width: 350px;
     text-align: right;
     margin-bottom: 5px;
-    -webkit-text-fill-color: #ffffff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #262626;
     font-family: monospace;
+}
+
+#display-history {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    height: 1.5em;
 }
 
 .buttons div {
