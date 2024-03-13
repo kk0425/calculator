@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="module"></script>
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
     <div id="calc-container">
-        <div id="display-history"></div>
+        <div id="display-top">
+            <div id="memory-display" class="memory-display-hidden">M</div>
+            <div id="display-history"></div>
+        </div>
         <div id="display">0</div>
         <div class="buttons">
+            <div class="top-row">
+                <button type="button" value="memory-store" id="memory-store">MS</button>
+                <button type="button" value="memory-recall" id="memory-recall">MR</button>
+                <button type="button" value="memory-clear" id="memory-clear">MC</button>
+                <button type="button" value="backspace" id="backspace">BKSP</button>
+            </div>
             <div>
                 <button type="button" value="clear" id="clear">AC</button>
                 <button type="button" value="sign" id="sign">+/-</button>

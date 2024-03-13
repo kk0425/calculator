@@ -1,6 +1,6 @@
 #calc-container {
     background-color: black;
-    width:fit-content;
+    width: 350px;
     padding: 8px;
 }
 
@@ -8,8 +8,8 @@
     color: white;
     background-color: rgb(102, 102, 102);
     padding-right: 4px;
-    font-size: 4em;
-    width: 350px;
+    font-size: 4.5em;
+    width: auto;
     text-align: right;
     margin-bottom: 5px;
     font-family: monospace;
@@ -19,6 +19,23 @@
     font-size: 1.2em;
     margin-bottom: 0px;
     height: 1.5em;
+    width: 100%;
+}
+
+#display-top {
+    display: flex;
+}
+
+#memory-display {
+    font-size: 1.2em;
+    color: white;
+    font-family: monospace;
+    background-color: rgb(102, 102, 102);
+    padding-left: 4px;
+}
+
+.memory-display-hidden {
+    display: none;
 }
 
 .buttons div {
@@ -26,7 +43,7 @@
 }
 
 .buttons div button {
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 600;
     width: 25%;
     height: 80px;
@@ -35,6 +52,18 @@
     border-style: solid;
     border-color: black;
     border-width: 1px;
+}
+
+.buttons .top-row button {
+    height: 40px;
+    font-size: 1em;
+    background-color: rgb(83, 83, 83);
+    color: rgb(223, 223, 223);
+}
+
+.buttons .top-row button:hover {
+    background-color: rgb(119, 119, 119);
+    color: rgb(223, 223, 223);
 }
 
 #zero {
